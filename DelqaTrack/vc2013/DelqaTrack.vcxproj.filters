@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Blocks">
+      <UniqueIdentifier>{E313398E-9187-4541-8836-6867A102C555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-KCB2">
+      <UniqueIdentifier>{EF2BF568-E354-4D58-A784-88DE52944017}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-KCB2\src">
+      <UniqueIdentifier>{FAD8C955-FA94-478A-9525-78BC6C736CA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OpenCV">
+      <UniqueIdentifier>{0B386F25-6C09-436E-B7E2-B1E891EB8C3D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OpenCV\include">
+      <UniqueIdentifier>{0DCE560C-52B2-427C-9C17-E5704011B984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OSC">
+      <UniqueIdentifier>{88A5356F-5D10-4115-A70E-9145597AEDFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OSC\src">
+      <UniqueIdentifier>{9C93FB7B-0BF7-49DB-A32C-5070F1FB5353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OSC\src\ip">
+      <UniqueIdentifier>{D3D604FD-5E4D-4200-BBE4-A445E4340A16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OSC\src\osc">
+      <UniqueIdentifier>{56F89824-E0D8-45BA-815F-A1CD884BD848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OSC\src\ip\win32">
+      <UniqueIdentifier>{4E97B5C9-1D1D-4821-8C37-112D1351CBF9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\PretzelGUI">
+      <UniqueIdentifier>{5220BF05-EE7F-413C-8268-5340F94BB4F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\PretzelGUI\src">
+      <UniqueIdentifier>{46DF27F9-49A1-4CAD-B6CD-A7DB57A58EED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\PretzelGUI\src\pretzel">
+      <UniqueIdentifier>{AB1BD2A8-E2CD-4724-B14F-3DDB44297981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\PretzelGUI\src\modules">
+      <UniqueIdentifier>{102CD233-D662-4BA1-89A9-62706487B0E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\PretzelGUI\src\components">
+      <UniqueIdentifier>{2508B467-E6DC-4ED6-9003-806AF5ABFFA6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\DelqaTrackApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DelqaTrackApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\blocks\Cinder-KCB2\src\Kinect2.cpp">
+      <Filter>Blocks\Cinder-KCB2\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\blocks\Cinder-KCB2\src\Kinect2.h">
+      <Filter>Blocks\Cinder-KCB2\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\OpenCV\include\CinderOpenCV.h">
+      <Filter>Blocks\OpenCV\include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\blocks\OSC\src\OscBundle.cpp">
+      <Filter>Blocks\OSC\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\blocks\OSC\src\OscListener.cpp">
+      <Filter>Blocks\OSC\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\blocks\OSC\src\OscMessage.cpp">
+      <Filter>Blocks\OSC\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\blocks\OSC\src\OscSender.cpp">
+      <Filter>Blocks\OSC\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\blocks\OSC\src\ip\IpEndpointName.cpp">
+      <Filter>Blocks\OSC\src\ip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\blocks\OSC\src\osc\OscOutboundPacketStream.cpp">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\blocks\OSC\src\osc\OscPrintReceivedElements.cpp">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\blocks\OSC\src\osc\OscReceivedElements.cpp">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\blocks\OSC\src\osc\OscTypes.cpp">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\blocks\OSC\src\OscArg.h">
+      <Filter>Blocks\OSC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\blocks\OSC\src\OscBundle.h">
+      <Filter>Blocks\OSC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\blocks\OSC\src\OscListener.h">
+      <Filter>Blocks\OSC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\blocks\OSC\src\OscMessage.h">
+      <Filter>Blocks\OSC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\blocks\OSC\src\OscSender.h">
+      <Filter>Blocks\OSC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\blocks\OSC\src\ip\IpEndpointName.h">
+      <Filter>Blocks\OSC\src\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\blocks\OSC\src\ip\NetworkingUtils.h">
+      <Filter>Blocks\OSC\src\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\blocks\OSC\src\ip\PacketListener.h">
+      <Filter>Blocks\OSC\src\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\blocks\OSC\src\ip\TimerListener.h">
+      <Filter>Blocks\OSC\src\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\blocks\OSC\src\ip\UdpSocket.h">
+      <Filter>Blocks\OSC\src\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\blocks\OSC\src\osc\MessageMappingOscPacketListener.h">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\blocks\OSC\src\osc\OscException.h">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\blocks\OSC\src\osc\OscHostEndianness.h">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\blocks\OSC\src\osc\OscOutboundPacketStream.h">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\blocks\OSC\src\osc\OscPacketListener.h">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\blocks\OSC\src\osc\OscPrintReceivedElements.h">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\blocks\OSC\src\osc\OscReceivedElements.h">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\blocks\OSC\src\osc\OscTypes.h">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\blocks\OSC\src\ip\win32\NetworkingUtils.cpp">
+      <Filter>Blocks\OSC\src\ip\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\blocks\OSC\src\ip\win32\UdpSocket.cpp">
+      <Filter>Blocks\OSC\src\ip\win32</Filter>
+    </ClCompile>
+    <ClInclude Include="..\blocks\PretzelGUI\src\pretzel\PretzelGlobal.h">
+      <Filter>Blocks\PretzelGUI\src\pretzel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\PretzelGUI\src\pretzel\PretzelGui.h">
+      <Filter>Blocks\PretzelGUI\src\pretzel</Filter>
+    </ClInclude>
+    <ClCompile Include="..\blocks\PretzelGUI\src\pretzel\PretzelGui.cpp">
+      <Filter>Blocks\PretzelGUI\src\pretzel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blocks\PretzelGUI\src\pretzel\PretzelGlobal.cpp">
+      <Filter>Blocks\PretzelGUI\src\pretzel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blocks\PretzelGUI\src\modules\PretzelButton.cpp">
+      <Filter>Blocks\PretzelGUI\src\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blocks\PretzelGUI\src\modules\PretzelColorPicker.cpp">
+      <Filter>Blocks\PretzelGUI\src\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blocks\PretzelGUI\src\modules\PretzelLabel.cpp">
+      <Filter>Blocks\PretzelGUI\src\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blocks\PretzelGUI\src\modules\PretzelSaveLoad.cpp">
+      <Filter>Blocks\PretzelGUI\src\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blocks\PretzelGUI\src\modules\PretzelSlider.cpp">
+      <Filter>Blocks\PretzelGUI\src\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blocks\PretzelGUI\src\modules\PretzelTextField.cpp">
+      <Filter>Blocks\PretzelGUI\src\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blocks\PretzelGUI\src\modules\PretzelToggle.cpp">
+      <Filter>Blocks\PretzelGUI\src\modules</Filter>
+    </ClCompile>
+    <ClInclude Include="..\blocks\PretzelGUI\src\modules\PretzelButton.h">
+      <Filter>Blocks\PretzelGUI\src\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\PretzelGUI\src\modules\PretzelColorPicker.h">
+      <Filter>Blocks\PretzelGUI\src\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\PretzelGUI\src\modules\PretzelLabel.h">
+      <Filter>Blocks\PretzelGUI\src\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\PretzelGUI\src\modules\PretzelSaveLoad.h">
+      <Filter>Blocks\PretzelGUI\src\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\PretzelGUI\src\modules\PretzelSlider.h">
+      <Filter>Blocks\PretzelGUI\src\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\PretzelGUI\src\modules\PretzelTextField.h">
+      <Filter>Blocks\PretzelGUI\src\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\PretzelGUI\src\modules\PretzelToggle.h">
+      <Filter>Blocks\PretzelGUI\src\modules</Filter>
+    </ClInclude>
+    <ClCompile Include="..\blocks\PretzelGUI\src\components\BasePretzel.cpp">
+      <Filter>Blocks\PretzelGUI\src\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blocks\PretzelGUI\src\components\PretzelRow.cpp">
+      <Filter>Blocks\PretzelGUI\src\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blocks\PretzelGUI\src\components\ScrollPane.cpp">
+      <Filter>Blocks\PretzelGUI\src\components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\blocks\PretzelGUI\src\components\BasePretzel.h">
+      <Filter>Blocks\PretzelGUI\src\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\PretzelGUI\src\components\PretzelRow.h">
+      <Filter>Blocks\PretzelGUI\src\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\PretzelGUI\src\components\ScrollPane.h">
+      <Filter>Blocks\PretzelGUI\src\components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\src\KinectManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\OscManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BlobTracker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\OscManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\KinectManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Blob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BlobTracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
