@@ -1,7 +1,7 @@
 ![DELQA](https://raw.githubusercontent.com/cwhitney/DelqaTools/master/DELQA_logo.png)
 ##### Open source tools from the installation 
 ##### 7/18/2015
-
+---
 Visit [http://delqa.is](http://delqa.is) for documentation and a full list of collaborators.
 
 This is an open source tool we developed for the interactive sound installation, DELQA.  It was installed at the New Museum's NEW INC space from August 6-9th in 2015.  The installation utilized 8 Kinect 2 sensors that tracked visitors interacting with and deforming the environment.  This tool is specifically built to help track soft-surface deformation and touches.  We used it to track visitors pushing and pulling fabric meshes inside of a our purpose built architecture.
