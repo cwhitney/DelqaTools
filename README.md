@@ -35,3 +35,9 @@ Instructions on how to build Cinder can additionally be found here: http://libci
 
 ###Anatomy of the application
 ---
+|File | Description|
+|-----|-----------|
+| DelqaTrackApp.cpp | The main application file. Notably contains the GUI setup. |
+| KinectManager.cpp | Handles getting data from the Kinect into a depth channel |
+| OscManager | Broadcasts our information once collected |
+| BlobTracker | The work horse. Uses openCv to detect touches in our depth image |
