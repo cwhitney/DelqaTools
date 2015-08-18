@@ -1,12 +1,11 @@
 ![DELQA](https://raw.githubusercontent.com/cwhitney/DelqaTools/master/DELQA_logo.png)
+##### Open source tools from the installation 7/18/2015
 =============
-Open source tools from DELQA 7/18/2015
+Visit [http://delqa.is](http://delqa.is) for documentation and a full list of collaborators.
 
-Visit http://delqa.is for documentation and a full list of collaborators.
+This is an open source tool we developed for the interactive sound installation, DELQA.  It was installed at the New Museum's NEW INC space from August 6-9th in 2015.  The installation utilized 8 Kinect 2 sensors that tracked visitors interacting with and deforming the environment.  This tool is specifically built to help track soft-surface deformation and touches.  We used it to track visitors pushing and pulling fabric meshes inside of a our purpose built architecture.
 
-This is an open source tool we developed for the interactive sound installation, DELQA.  It was installed at the New Museum's NEW INC space from August 6-9th in 2015.
-
-The code utilizes a few open source projects including:
+The code utilizes several open source projects including:
 
 Cinder 0.9.0dev - Barbarian Group - https://github.com/cinder/Cinder
 
@@ -32,6 +31,15 @@ git checkout 71502f739fb7adbeea8e85b29a363f9015df4b35
 ```
 
 Instructions on how to build Cinder can additionally be found here: http://libcinder.org/docs/welcome/GitSetup.html
+
+Clone this repository into a directory inside of cinder, two directories deep.  For example if your Cinder directory is at:
+```
+C:\Users\You\Document\Cinder
+```
+You would want to clone this in a folder at:
+```
+C:\Users\You\Document\Cinder\apps\delqa
+```
 
 ###Anatomy of the application
 ---
