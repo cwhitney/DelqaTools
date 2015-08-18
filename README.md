@@ -1,5 +1,7 @@
 ![DELQA](https://raw.githubusercontent.com/cwhitney/DelqaTools/master/DELQA_logo.png)
-##### Open source tools from the installation 7/18/2015
+##### Open source tools from the installation 
+##### 7/18/2015
+
 Visit [http://delqa.is](http://delqa.is) for documentation and a full list of collaborators.
 
 This is an open source tool we developed for the interactive sound installation, DELQA.  It was installed at the New Museum's NEW INC space from August 6-9th in 2015.  The installation utilized 8 Kinect 2 sensors that tracked visitors interacting with and deforming the environment.  This tool is specifically built to help track soft-surface deformation and touches.  We used it to track visitors pushing and pulling fabric meshes inside of a our purpose built architecture.
@@ -15,7 +17,7 @@ KCB2 - Wieden and Kennedy - https://github.com/wieden-kennedy/Cinder-KCB2
 Pretzel Gui - Charlie Whitney - https://github.com/cwhitney/PretzelGui
 
 
-###Setting up your dev environment 
+#####Setting up your dev environment 
 ---
 This application was built on Windows 8.1 using Visual Studio 2013 Community edition.
 
@@ -40,7 +42,7 @@ You would want to clone this in a folder at:
 C:\Users\You\Document\Cinder\apps\delqa
 ```
 
-###Anatomy of the application
+#####Anatomy of the application
 ---
 |File | Description|
 |-----|-----------|
