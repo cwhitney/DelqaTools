@@ -1,4 +1,4 @@
-# DelqaTools
+![DELQA](https://raw.githubusercontent.com/cwhitney/DelqaTools/master/DELQA_logo.png)
 =============
 Open source tools from DELQA 7/18/2015
 
