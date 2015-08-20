@@ -23,7 +23,7 @@ This application was built on Windows 8.1 using Visual Studio 2013 Community edi
 
 Visual Studio [[Download](https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx)]
 
-Kinect for Windows SDK [Download](http://www.microsoft.com/en-us/download/details.aspx?id=44561)
+Kinect for Windows SDK [[Download](http://www.microsoft.com/en-us/download/details.aspx?id=44561)]
 
 At the time of writing, Cinder 0.9.0 was in development and not officially released yet.  The SHA1 of the version used is 71502f739fb7adbeea8e85b29a363f9015df4b35.  It can be cloned from github with the following commands
 ```
@@ -46,7 +46,7 @@ C:\Users\You\Document\Cinder\apps\delqa
 ---
 |File | Description|
 |-----|-----------|
-| DelqaTrackApp.cpp | The main application file. Notably contains the GUI setup. |
-| KinectManager.cpp | Handles getting data from the Kinect into a depth channel |
+| DelqaTrackApp | The main application file. Notably contains the GUI setup. |
+| KinectManager | Handles getting data from the Kinect into a depth channel |
 | OscManager | Broadcasts our information once collected |
 | BlobTracker | The work horse. Uses openCv to detect touches in our depth image |
