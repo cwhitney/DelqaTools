@@ -17,7 +17,7 @@ KCB2 - Wieden and Kennedy - https://github.com/wieden-kennedy/Cinder-KCB2
 Pretzel Gui - Charlie Whitney - https://github.com/cwhitney/PretzelGui
 
 
-#####Setting up your dev environment 
+##### Setting up your dev environment 
 ---
 This application was built on Windows 8.1 using Visual Studio 2013 Community edition.
 
@@ -42,7 +42,7 @@ You would want to clone this in a folder at:
 C:\Users\You\Document\Cinder\apps\delqa
 ```
 
-#####Anatomy of the application
+##### Anatomy of the application
 ---
 |File | Description|
 |-----|-----------|
